@@ -11,7 +11,7 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="logo">
                     <h1 className="logoheading" >GameFive</h1>
-                    <img src={logo} className="gfivelogo"></img>
+                    <img src={logo} alt="logo" className="gfivelogo"></img>
                 </div>
                 <ul className="nav-menu">
                     {MenuData.map((item,index)=>{
