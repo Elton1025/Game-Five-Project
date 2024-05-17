@@ -1,0 +1,162 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #9e912b;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 20px;
+    background-image: url("#"); /* Add background image (optional) */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-content {
+    max-width: 500px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .hero-content button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hero-content button:hover {
+    background-color: #0062cc;
+  }
+  
+  .hero-image {
+    flex: 1;
+    
+  }
+
+  .bgis-logo {
+    width:50px;
+    height:10px;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensure image fills container */
+  }
+  
+  /* About Section */
+  .about {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+  }
+  
+  .about-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .about-card {
+    width: 300px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .about-card:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .about-card p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 80px 20px;
+  }
+  
+  .features h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .feature-item {
+    text-align: center;
+  }
+  
+  .feature-item i {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  .feature-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  /* Call to Action */
+  .cta {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .cta h2 {
+    font-size:18px;
+  }
+
+  footer {
+    background: #282828;
+    padding-top: 25px;
+     padding-bottom: 25px;
+    text-align: center;
+    color:#fff;
+}
+  
