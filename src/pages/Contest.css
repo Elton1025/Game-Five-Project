@@ -1,0 +1,14 @@
+.top-div {
+    height:80px;
+}
+
+.row {
+    height: 60px;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
