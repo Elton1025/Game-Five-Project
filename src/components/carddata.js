@@ -1,27 +1,82 @@
-export const CardData = [
+export const CardData = {
+    iqooSoul:[
     
     {
+        id:1,
         name:"Manya",
-        url:'./player-photo/soul-manya.png'  
+        url:'./player-photo/soul-manya.png',
+        role:'IGL',
+        finishes:3,
+        price:10
     },
     {
+        id:2,
         name:"Spower",
-        url:'./player-photo/soul-spower.png'  
+        url:'./player-photo/soul-spower.png',
+        role:'Assaulter',
+        finishes:5,
+        price:10
     },
     {
+        id:3,
         name:"Rony",
-        url:'./player-photo/soul-rony.png'  
+        url:'./player-photo/soul-rony.png',
+        role:'Assaulter',
+        finishes:8,
+        price:10
     },
     {
+        id:4,
         name:"Nakul",
-        url:'./player-photo/soul-nakul.png'  
+        url:'./player-photo/soul-nakul.png',
+        role:'Assaulter',
+        finishes:0,
+        price:10
     },
     {
+        id:5,
         name:"Joker",
-        url:'./player-photo/soul-Joker.png'  
+        url:'./player-photo/soul-Joker.png',
+        role:'Assaulter',
+        finishes:1,
+        price:10
     },
-    {
+    
+    ],
+    
+    godLike:[
+        {
+        id:6,
         name:"Admino",
-        url:'./player-photo/blank-profile.jpg'
-    }
-];
+        url:'./player-photo/blank-profile.jpg',
+        role:'Assaulter',
+        finishes:0,
+        price:10
+        },
+        {
+        id:7,
+        name:"Jonathan",
+        url:'./player-photo/blank-profile.jpg',
+        role:'Assaulter',
+        finishes:0,
+        price:10
+        },
+        {
+        id:8,
+        name:"Simp",
+        url:'./player-photo/blank-profile.jpg',
+        role:'Assaulter',
+        finishes:0,
+        price:10
+        },
+        {
+        id:9,
+        name:"Jelly",
+        url:'./player-photo/blank-profile.jpg',
+        role:'Assaulter',
+        finishes:0,
+        price:10
+        }
+    ]
+
+};

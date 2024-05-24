@@ -1,28 +1,17 @@
 import './Contest.css';
-import Card from "../components/card.js";
-import RowCard from "../components/rowcard.js";
-import { CardData } from '../components/carddata.js';
+import Cart from '../components/playercart.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './Home.js';
+import { CartProvider } from 'react-use-cart';
 
 const Contest = ()=> {
-    
-    const cards = CardData.map(item=> {
-        return (
-            <Card 
-                name={item.name}
-                url={item.url}
-            />
-        )
-    })
-    
-    
     return (
-        <div>
-            <div className="top-div"></div>
-            <RowCard/>
-            <section className="card-list">
-                {cards} 
-            </section>
-        </div>
+        <>
+            <CartProvider>
+                <Home/>
+                <Cart/>
+            </CartProvider>
+        </>
     );
 }
 

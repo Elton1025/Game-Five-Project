@@ -1,22 +1,28 @@
-
 import './card.css';
+import { useCart } from 'react-use-cart';
+
 
 const Card = (props) => {
-    return (
-                    
-                    <div className="player-card">
-                                <div className="individual-card">
-                                    <img src={props.url} alt="Player" className="player-image"></img>
-                                        <div className="player-info">
-                                            <span className={props.name}>{props.name}</span>
-                                        </div>
-                                    <button className="add-button">Add</button>
-                                </div>
-                    </div>
+    
+    const { addItem } = useCart();
+        
 
-       
+
+    return (
+        <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4">
+            <div className="card p-0 overflow-hidden h-100 shadow">
+                <img src={props.img} className="card-img-top img-fluid" alt="player" />
+                <div className="card-body text-center">
+                    <h5 className="card-title">{props.name}</h5>
+                    <p className="card-text">{props.role}</p>
+                    <button  className="btn btn-success"  onClick={()=>addItem(props.item)}>Add</button>
+                </div>
+            </div>
+            </div>
     );
 }
+
+
 
 
 
